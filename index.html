@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="main_title">Mohamed Maher</h1>
+                <p>A passionate Software Engineer</p>
+                <a href="https://github.com/MohamedMaher5" target="_blank"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&amp;logo=github" alt="GitHub" data-canonical-src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&amp;logo=github" style="max-width: 100%;"></a>
+                <a href="https://www.linkedin.com/in/mmaher5" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&amp;style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" data-canonical-src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&amp;style=flat-square&amp;logo=linkedin&amp;logoColor=white" style="max-width: 100%;"></a>
+                <a href="https://stackoverflow.com/users/edit/20512345" target="_blank"><img src="https://img.shields.io/badge/Stack%20overflow-FE7A16?logo=stack-overflow&logoColor=white" alt="stackoverflow" data-canonical-src="https://img.shields.io/badge/Stack%20overflow-FE7A16?logo=stack-overflow&logoColor=white" style="max-width: 100%;"></a>
+                <a href="mailto:mohamedmaher055@gmail.com"><img src="https://img.shields.io/badge/Gmail-%23E4405F.svg?&amp;style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Gmail" data-canonical-src="https://img.shields.io/badge/Gmail-%23E4405F.svg?&amp;style=flat-square&amp;logo=gmail&amp;logoColor=white" style="max-width: 100%;"></a>
+                <a href="https://momaher.000webhostapp.com/MohamedMaher.pdf" target="_blank"><img src="https://img.shields.io/badge/My%20CV-%23795548.svg?style=flat-square&logoColor=white" alt="CV" data-canonical-src="https://img.shields.io/badge/My%20CV-%23795548.svg?style=flat-square&logoColor=white" style="max-width: 100%;"></a>
+            </div>
+        </div>
+        <div class="row mt-5" id="container"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $.getJSON('data.json', function (data) {
+                let website = '';
+                $.each(data['websites'], function (key, value) {
+                    website += `<div class="col-md-3 col-xs-6">
+                        <a href="`+value.link+`" target="_blank">
+                            <div class="project-box" style="background-color: `+value.color+`">
+                                <div class="project-img">
+                                    <img class="img-responsive" src="`+value.logo+`" />
+                                </div>
+                                <p class="project-name" style="color: `+value.font_color+`">`+value.name+`</p>
+                            </div>
+                        </a>
+                    </div>`;
+                });
+                $('#container').append(website);
+            });
+        });
+    </script>
+</body>
+</html>

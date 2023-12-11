@@ -1,0 +1,41 @@
+body {
+    color:#424242;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.main_title {
+    margin-top: 50px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.project-box {
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.project-img {
+    margin: 40px auto;
+}
+
+.project-img img {
+    display: block;
+    margin: auto;
+    height: 50px;
+}
+
+.project-name {
+    text-align: center;
+    margin: 0 auto;
+    color: #424242;
+    font-size: 16px;
+}
