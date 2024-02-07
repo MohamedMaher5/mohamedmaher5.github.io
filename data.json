@@ -5,13 +5,13 @@
     {"name": "Pamuk", "link": "https://pamukeg.com", "desc": "", "logo": "https://pamukeg.com/storage/qjFyBU98EjWxOJS2kH59pWmAQ0RhmMnfLQCXrFRi.png", "color": "", "font_color": ""},
     {"name": "Travel To Egypt", "link": "https://www.traveltoegypt.net", "desc": "", "logo": "https://www.traveltoegypt.net/uploads/siteContent/1599580194logo.png", "color": "", "font_color": ""},
     {"name": "Sara.sa", "link": "https://www.sara.sa", "desc": "", "logo": "https://www.sara.sa/uploads/settings/logo.png", "color": "", "font_color": ""},
-    {"name": "Suez Gulf Tourism", "link": "https://www.suezgulftours.com", "desc": "", "logo": "https://www.suezgulftours.com/uploads/settings/HDQYx4UR3k_suezlogo.png", "color": "#F7F7F7", "font_color": ""},
+    {"name": "Suez Gulf Tourism", "link": "https://www.suezgulftours.com", "desc": "", "logo": "https://www.suezgulftours.com/uploads/settings/kgx1kmqids_IMG_4099%20(1).PNG", "color": "#F7F7F7", "font_color": ""},
     {"name": "Biladi stores", "link": "https://www.biladistores.com/", "desc": "", "logo": "https://www.biladistores.com/storage/7L8VlhSsNy5qHdRySvfYLjICaTOVul3m8k25RD74.jpg", "color": "", "font_color": ""},
     {"name": "Seif online", "link": "https://seif-online.com", "desc": "", "logo": "https://seif-online.com/wp-content/uploads/2020/09/imageedit_4_6813875736_1.png", "color": "#ED6E00", "font_color": "#FFF"},
     {"name": "Ibis Egypt Travel", "link": "https://www.ibisegypttravel.com", "desc": "", "logo": "https://www.ibisegypttravel.com/storage/logo-1649325091.png", "color": "", "font_color": ""},
     {"name": "Kinda dates", "link": "https://kindadates.com", "desc": "", "logo": "https://kindadates.com/storage/XeBynZD5266LrU8T0Jl4VcQQGsScgpcZ0LTWvyUt.png", "color": "", "font_color": ""},
     {"name": "Cruze lubricants", "link": "https://www.cruzelubricants.com", "desc": "", "logo": "https://www.cruzelubricants.com/storage/6zs2p4lJNMHDbCh5x9uLvYxrJJyQCV6OzWyfpMF4.png", "color": "", "font_color": ""},
-    {"name": "ETB Tours", "link": "https://www.egitotours.com", "desc": "", "logo": "https://www.egitotours.com/storage/PiRwQbm0784L0ffwZqcooG3MHTIh7NNMydSzgyZq.png", "color": "", "font_color": ""},
+    {"name": "ETB Tours", "link": "https://www.etbtoursegypt.com", "desc": "", "logo": "https://www.etbtoursegypt.com/storage/PiRwQbm0784L0ffwZqcooG3MHTIh7NNMydSzgyZq.png", "color": "", "font_color": ""},
     {"name": "Falcon Adventure", "link": "https://www.falconadventure.com", "desc": "", "logo": "https://www.falconadventure.com/uploads/settings/1580829880logo-sticky.png", "color": "", "font_color": ""},
     {"name": "Fayed Travel", "link": "https://www.fayed-travel.com", "desc": "", "logo": "https://fayed-travel.com/storage/output-onlinepngtools-1670851981.png", "color": "", "font_color": ""},
     {"name": "Khod Course", "link": "https://khodcourse.com", "desc": "", "logo": "https://khodcourse.com/assets/site/images/logo.png", "color": "", "font_color": ""},
@@ -60,6 +60,6 @@
     {"name": "Gardenia Pharmacy", "link": "https://gardeniapharmacies.com", "desc": "", "logo": "https://gardeniapharmacies.com/wp-content/uploads/2021/11/gardenia-pharmacy-logo-ar.png", "color": "", "font_color": ""},
     {"name": "Gardenia Doctors", "link": "#", "desc": "", "logo": "https://gardeniapharmacies.com/wp-content/uploads/2021/11/gardenia-pharmacy-logo-ar.png", "color": "", "font_color": ""},
     {"name": "Gardenia (Api)", "link": "#", "desc": "", "logo": "https://gardeniapharmacies.com/wp-content/uploads/2021/11/gardenia-pharmacy-logo-ar.png", "color": "", "font_color": ""},
-    {"name": "Nassli Light", "link": "http://nassli-light.com", "desc": "", "logo": "http://nassli-light.com/images/common/logo.png", "color": "", "font_color": ""}
+    {"name": "Nassli Light", "link": "https://nassli-light.com", "desc": "", "logo": "https://nassli-light.com/images/common/logo.png", "color": "", "font_color": ""}
   ]
 }
